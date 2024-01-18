@@ -1,6 +1,10 @@
+import 'package:belajar_flutter/latihan_row.dart';
+import 'package:belajar_flutter/tugas_row_column.dart';
 import 'package:flutter/material.dart';
 import 'container_widget.dart';
 import 'latihan_widget.dart';
+import 'latihan_row.dart';
+import 'package:belajar_flutter/latihan_column.dart';
 
 
 
@@ -19,18 +23,15 @@ class MyApp extends StatelessWidget {
       title:"ChanzStore",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Selamat Datang Anak Ganteng", style: TextStyle( 
+          title: const Text("ChanZStore", style: TextStyle( 
             color: Colors.black87,
             fontStyle: FontStyle.italic,
             ),),
-          backgroundColor: Colors.amber,
+          backgroundColor: Color.fromARGB(255, 237, 231, 212),
           centerTitle: true,
         ),
 
-        body:Container(
-          color: Colors.amber,
-          child: Container2(),
-        ),
+        body:TugasRowColumn(),
       ),
      );
    }
