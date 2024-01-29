@@ -1,3 +1,7 @@
+import 'package:belajar_flutter/gridview/grid_basic.dart';
+import 'package:belajar_flutter/gridview/grid_builder.dart';
+import 'package:belajar_flutter/gridview/grid_count.dart';
+import 'package:belajar_flutter/latihan_fullwidget.dart';
 import 'package:belajar_flutter/latihan_row.dart';
 import 'package:belajar_flutter/tugas_row_column.dart';
 import 'package:flutter/material.dart';
@@ -23,15 +27,16 @@ class MyApp extends StatelessWidget {
       title:"ChanzStore",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("ChanZStore", style: TextStyle( 
+          title: const Text("Chandra", style: TextStyle( 
             color: Colors.black87,
+            
             fontStyle: FontStyle.italic,
             ),),
-          backgroundColor: Color.fromARGB(255, 237, 231, 212),
+         backgroundColor: Color.fromARGB(255, 240, 220, 161),
           centerTitle: true,
         ),
 
-        body:TugasRowColumn(),
+        body:LatihanListView(),
       ),
      );
    }
