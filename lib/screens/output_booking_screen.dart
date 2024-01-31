@@ -20,7 +20,7 @@ class OutputBookingScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Back'),
-         backgroundColor: Color.fromARGB(255, 6, 207, 36),
+         backgroundColor: Color.fromARGB(255, 33, 34, 33),
         // You can customize the AppBar further as needed
       ),
       body: Container(
